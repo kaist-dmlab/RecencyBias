@@ -1,7 +1,7 @@
 ## Carpe Diem: Seize the Samples Uncertain "at the Moment" for Adaptive Batch Selection
 
 > __Publication__ </br>
-> Song, H., Sundong, K., Kim, M., and Lee, J., "Carpe Diem: Seize the Samples Uncertain "at the Moment" for Adaptive Batch Selection," *In Proceedings of the 29th ACM International Conference on Information and Knowlege Management (CIKM)*, SOctober 2020, VirtualEvent, Ireland.
+> Song, H., Sundong, K., Kim, M., and Lee, J., "Carpe Diem: Seize the Samples Uncertain "at the Moment" for Adaptive Batch Selection," *In Proceedings of the 29th ACM International Conference on Information and Knowlege Management (CIKM)*, October 2020, Ireland.
 
 ##  1. Requirement 
 - Python 3
