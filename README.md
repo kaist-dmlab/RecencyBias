@@ -17,7 +17,7 @@
 
 | Name     | # Training Images | # Testing Images  | # Classes |  Resolution |  Link   |
 | :------------: | :---------------: | :---------------: |:---------:|:----------:|:-------:|
-| CIFAR-10        | 50,000            | 10,000            | 10        |    32x32   | [link]
+| CIFAR-10        | 50,000            | 10,000            | 10        |    32x32   | [link](https://drive.google.com/a/dm.kaist.ac.kr/file/d/1ipishY18dUv7aopE36gicbNYhk9E9nHx/view?usp=sharing) |
 
 ## 4. Tutorial for Evaluation.
 - Training Configuration
