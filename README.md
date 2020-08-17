@@ -24,7 +24,7 @@
 - Necessary Parameters
 	```python
 	- 'gpu_id': gpu number which you want to use (only support single gpu).
-	- 'data_name': {MNIST, CIFAR-10}. # others will be supported later
+	- 'data_name': {CIFAR-10}. # others will be supported later
 	- 'method_name': {Online Batch, Active Bias, Recency Bias}.
 	- 'optimizer': {sgd, momentum}
 	- 'log_dir': log directory to save (1) mini-batch loss/error, (2) training loss/error, and (3) test loss/error.
