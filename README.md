@@ -13,8 +13,13 @@
 - Please do not change the structure of directories:
 	- Folder **_src_** provides all the code for evaluation with compared methods.
   	- Folder **_src/dataset_** contains a benchmark dataset (CIFAR-10). Due to the lack of space, the other data will be uploaded soon. Moreover, **_.bin_** format is used for the synthetic data because they can be loaded at once in main memory.
+##  3. Dataset
 
-### 3. Tutorial for Evaluation.
+| Name     | # Training Images | # Testing Images  | # Classes |  Resolution |  Link   |
+| :------------: | :---------------: | :---------------: |:---------:|:----------:|:-------:|
+| CIFAR-10        | 50,000            | 10,000            | 10        |    32x32   | [link]
+
+## 4. Tutorial for Evaluation.
 - Training Configuration
 	```python
 	# All the hyperparameters of baseline methods were set to the same value described in our paper.
