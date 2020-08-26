@@ -7,7 +7,7 @@ from algorithm.activebias import *
 from algorithm.recencybias import *
 
 def main():
-    print("------------------------------------------------------------------------")
+    print("-------------------------------------------------------------------------")
     print("This Tutorial is to train DenseNet-25-12 in tensorflow-gpu environment.")
     print("\nDescription -----------------------------------------------------------")
     print("Supporting datasets: {CIFAR-10}. *** all the data sets will be added in the next version. ***")
