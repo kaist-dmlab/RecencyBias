@@ -6,7 +6,7 @@
 ##  1. Requirement 
 - Python 3
 - tensorflow-gpu 2+
-- tensorpack libracy //use "pip install tensorpack"
+- tensorpack library //use "pip install tensorpack"
 
 ##  2. Description
 - This Tutorial is to train DenseNet-25-12 in tensorflow-gpu environment.
