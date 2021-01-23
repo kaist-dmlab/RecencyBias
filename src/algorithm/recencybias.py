@@ -36,7 +36,7 @@ def training(sess, training_epochs, batch_size, train_batch_patcher, validation_
                 avg_mini_loss += mini_loss
                 avg_mini_acc += mini_acc
 
-        elif method == "ada-boundary":
+        elif method == "recency_bias":
             # p_table update
             sampler.update_sampling_probability(epoch + cur_epoch + 1, train_batch_patcher.loaded_data, normalize=True)
 
@@ -84,7 +84,7 @@ def recency_bias(gpu_id, input_reader, model_type, total_epochs, batch_size, lr_
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
-    method = "ada-boundary"
+    method = "recency_bias"
 
     # log list
     training_log = []
@@ -171,7 +171,7 @@ def recency_bias(gpu_id, input_reader, model_type, total_epochs, batch_size, lr_
                 print("warm_up phase")
                 training(sess, warm_up, batch_size, train_batch_patcher, test_batch_patcher, trainer, pre_trained, "warm-up", start_time, sampler=sampler, training_log=training_log)
 
-                print("ada-boundary phase")
+                print("recency_bias phase")
                 # self online correction mechanism
                 training(sess, total_epochs-warm_up-pre_trained, batch_size, train_batch_patcher, test_batch_patcher, trainer, pre_trained + warm_up, method, start_time, sampler=sampler, training_log=training_log)
 
